@@ -1,0 +1,130 @@
+body{
+  background-color: rgba(100, 22, 131, 0.733);
+  color:rgb(231, 231, 222);
+  overflow:hidden;
+ background-image: url('https://images.saymedia-content.com/.image/t_share/MTkzODAzNTgyODUxMDY1MzI4/cool-css-backgrounds.jpg');
+}
+h1{
+  text-align:center;
+}
+.todo-wrapper{
+background-color: rgba(71, 109, 158, 0.671) ;
+padding:4%;
+width:fit-content;
+margin-left:auto;
+margin-right: auto;
+margin-top:4%;
+max-height: 80vh;
+overflow-y:auto;
+box-shadow:4px 5px 8px rgba(46, 38, 38, 0.404);
+}
+.todo-input{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom:2px solid black;
+  padding-bottom:23px;
+  margin-bottom:23px;
+}
+.todo-input-item{
+  display:flex;
+  flex-direction:column;
+  align-items:flex-start;
+  margin-right:23px;
+}
+.todo-input-item label{
+  font-weight:bold;
+  margin-bottom:10px;
+}
+.todo-input-item input{
+  padding :7px;
+  border:none;
+  width:250px;
+
+
+}
+.todo-input-item input:focus
+{
+  
+  outline:3px solid black;
+}
+.primaryBtn{
+  background-color:rgb(130, 207, 29);
+  color:rgb(16, 17, 17);border:black;
+  border-radius:30%;
+  padding:10px;
+  width:70px;
+  cursor:pointer;
+}
+.primaryBtn:hover{
+background-color:greenyellow;
+
+}
+.secondaryBtn{
+  background-color:rgb(20, 117, 101);
+  color:rgb(16, 17, 17);border:black;
+  border-radius:0%;
+  padding:10px;
+  width:fit-content;
+  cursor:pointer;
+
+}
+.active{
+  background-color: rgb(44, 221, 245);
+}
+.todo-list{
+  display:flex;
+  flex-direction:column;
+
+}
+.btn-area{
+  margin-bottom:14px;
+}
+.todo-list-item{
+  background-color:rgba(190, 92, 184, 0.863);
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:25px;
+  padding-bottom:12px;
+  padding-top:12px;
+  margin-bottom:12px;
+font-style: oblique;
+box-shadow:0px 4px 6px rgba(161, 54, 27, 0.87);
+
+}
+ .todo-list-item h2{
+  font-size:25px;
+  color:rgb(242, 243, 234);
+  margin-top:0px;
+}
+h1{
+  font-style: oblique;
+}
+.todo-list-item p{
+font-size:16px;
+color:rgb(221, 223, 214);
+margin-top: 10px;
+font-weight:bold;
+
+}
+.delete-icon{
+  font-size:30px;
+  cursor:pointer;
+margin-left:12px;padding-right: 0%;
+color:rgb(246, 244, 248);
+
+
+}
+.check-icon{
+  font-size: 28px;;
+  margin-left:12px;
+  color:rgb(246, 244, 248);
+}
+.delete-icon:hover{
+  color:black;
+}
+.check-icon:hover{
+  color: black;
+}
+
