@@ -52,7 +52,7 @@ localStorage.setItem('completedTodos',JSON.stringify(updatedCompletedArr));
 };
 const handleDeleteCompletedTodo=(index)=>{
   let reducedTodo=[...completedTodos];
-  reducedTodo.splice(index);
+  reducedTodo.splice(index,1);
   localStorage.setItem('completedTodos',JSON.stringify(reducedTodo));
 setCompletedTodos(reducedTodo);
 }
